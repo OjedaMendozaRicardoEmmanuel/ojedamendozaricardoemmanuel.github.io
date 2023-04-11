@@ -1,0 +1,142 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+.encabezado {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 10px 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: grey;
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+    margin: 0;
+    border-radius: 10px 5px;
+    text-align: center;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+}
+
+img[src*="img"]{
+    width: 600px;
+    height: 400px;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+.section-noticias{
+    background-color: #333;
+    padding: 10px;
+    border-radius: 25px 5px;
+}
+
+.noticia{
+    background-color: gray;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px 5px;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+}
+
+.parrafo-n{
+    text-align: justify;
+}
+
+.gadgets{
+    background-color: gray;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0f0f0f;
+  }
+  
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
